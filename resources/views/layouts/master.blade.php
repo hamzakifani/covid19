@@ -140,9 +140,9 @@
 		</section>
 			<!-- End section Info -->
 
-			<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+			<!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script> -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
 
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="{{asset('assets/js/jquery-3.4.1.slim.min.js')}}"></script>
