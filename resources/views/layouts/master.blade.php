@@ -10,16 +10,16 @@
 	    <!-- Title -->
         <title>MorocCOVID-19</title>
         <!-- Favicon -->
-		<link rel="icon" href="{{asset('assets/images/icon.png')}}">
+		<link rel="icon" href="https://covid-maroc19.herokuapp.com/assets/image/favicon.ico">
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Tajawal:300,400,500,700,800&display=swap" rel="stylesheet">
 		
 		<!-- Font Awesome Css -->
-        <link rel="stylesheet" href="{{asset('assets/css/font-awesome.min.css')}}">
+        <link rel="stylesheet" href="https://covid-maroc19.herokuapp.com/assets/css/font-awesome.min.css">
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
+        <link rel="stylesheet" href="https://covid-maroc19.herokuapp.com/assets/css/bootstrap.min.css">
         <!-- Style CSS -->
-        <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+        <link rel="stylesheet" href="https://covid-maroc19.herokuapp.com/assets/css/style.css">
         <!--[if lt IE 9]>
         <script src="js/html5shiv.min.js"></script>
         <script src="js/respond.min.js"></script>
@@ -145,9 +145,9 @@
         <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
 
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="{{asset('assets/js/jquery-3.4.1.slim.min.js')}}"></script>
-        <script src="{{asset('assets/js/popper.min.js')}}"></script>
-        <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
+        <script src="https://covid-maroc19.herokuapp.com/assets/js/jquery-3.4.1.slim.min.js"></script>
+        <script src="https://covid-maroc19.herokuapp.com/assets/js/popper.min.js"></script>
+        <script src="https://covid-maroc19.herokuapp.com/assets/js/bootstrap.min.js"></script>
 		<script>
             $("body").css("padding-top", $(".navbarFixed").innerHeight());
             // $(".header").css("height", $(window).innerHeight() - $(".navbarFixed").innerHeight());
