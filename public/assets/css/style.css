@@ -1,0 +1,415 @@
+/* --------------------------------------
+   Global Styles
+-----------------------------------------*/
+* {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+	background-color: #fff;
+	overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+/*=========== My Classes ============*/
+
+.main-title {
+    margin-bottom: 60px;
+	text-align: center;
+	position: relative;
+}
+
+.main-title h2 {	
+    font-size: 28px;
+    letter-spacing: .4px;
+    line-height: 1.3;
+    color: #333;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+/* --------------------------------------
+   Navbar
+-----------------------------------------*/
+
+.navbarFixed {
+    background: linear-gradient(to right, #1DB9A0 0%, #50bccc 100%);
+    color: #fff;
+    height: auto;
+    align-items: center;
+    display: flex;
+    position: fixed;
+	top: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 4;
+}
+
+.navbarFixed .logo {
+	border-bottom: 1px solid #31c3bc;
+    padding-bottom: 5px;
+}
+
+.navbarFixed .logo a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.navbarFixed .info-nav {
+    direction: ltr;
+	overflow: hidden;
+	padding-top: 9px;
+}
+
+.navbarFixed .info-nav ul li {
+    font-weight: 500;
+    letter-spacing: .4px;
+    float: right;
+    width: 50%;
+}
+
+.navbarFixed .info-nav ul li span {
+    margin-right: 5px;
+	position: relative;
+	top: 1px;
+} 
+
+.navbarFixed .info-nav ul li span i {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.itemnav {
+    width: 100%;
+}
+
+ul.list-unstyled {
+    margin: 0;
+}
+
+/* --------------------------------------
+   Header
+-----------------------------------------*/
+
+.header {
+    background: url(../image/bg_hero.svg) no-repeat center right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+/*.header:before {
+    content: "";
+    background: linear-gradient(to right, #1DB9A0 0%, #50bccc 100%);
+    opacity: .4;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}*/
+
+.header .covid-19-item {
+    position: relative;
+    z-index: 3;
+    padding: 20px 10px;
+    -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+    border-radius: 0 20px;
+	color: #fff;
+}
+
+.header .covid-19-item h4 {
+    color: #fff;
+    margin-bottom: 3px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.header .covid-19-item span {
+    font-size: 37px;
+    font-weight: bold;
+}
+
+.header .covid-19-item.one {
+    border-bottom: 3px solid #fb6553;
+	border-radius: 20px 0;
+	background: linear-gradient(to right, #fb89a9, #e26851);
+}
+
+.header .covid-19-item.two {
+    border-bottom: 3px solid #44c3f7;
+	background: linear-gradient(to right, #41bef7, #55dff5);
+}
+
+.header .covid-19-item.three {
+    border-bottom: 3px solid #333;
+	border-radius: 20px 0;
+	background: linear-gradient(to right, #4f5050, #202121);
+}
+
+.header .covid-19-item.four {
+    border-bottom: 3px solid #46d27e;
+	background: linear-gradient(to right, #46d27e 0%, #75d8de 100%);
+}
+
+/* --------------------------------------
+   About
+-----------------------------------------*/
+.about {
+	padding-bottom: 50px;
+	background: url(../image/bg_hero.svg) no-repeat center right;
+}
+
+.about .symptoms,
+.about .percautions {
+    width: 80%;
+	margin: auto;
+	-webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+	text-align: right;
+	color: #fff;
+}
+
+.about .symptoms {
+    padding: 30px;
+    background: linear-gradient(to right, #fb89a9, #e26851);
+	border-bottom: 3px solid #fb6553;
+    border-radius: 30px 0;
+	margin-bottom: 35px;
+}
+
+.about .percautions {
+    padding: 30px;
+    background: linear-gradient(to right, #60b4b9 0%, #74dad1 100%);
+	border-bottom: 3px solid #4dc4f5;
+    border-radius: 30px 0;
+}
+
+.about .symptoms h3,
+.about .percautions h3 {
+    color: #fff;
+	text-align: center;
+	font-size: 28px;
+    letter-spacing: .4px;
+    line-height: 1.3;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about .symptoms p,
+.about .percautions p {
+    line-height: 1.7;
+	letter-spacing: .1px;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.about .symptoms .symptoms-list,
+.about .percautions .percautions-list {
+    padding: 0;
+}
+
+.about .symptoms .symptoms-list li,
+.about .percautions .percautions-list li {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .1px;
+    line-height: 2.5;
+}
+
+.about .symptoms .symptoms-list li i,
+.about .percautions .percautions-list li i {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #f38d8b;
+    border-radius: 50%;
+    line-height: 28px;
+    text-align: center;
+    margin-left: 8px;
+    color: #fbb6b2;
+}
+
+.about .percautions .percautions-list li i {
+    border: 1px solid #c9fbf6;
+    color: #c9fbf6;
+}
+
+/* --------------------------------------
+   Info
+-----------------------------------------*/
+.info {
+	padding-top: 30px;
+	padding-bottom: 50px;
+	background: url(../image/bg_hero.svg) no-repeat center right;
+}
+
+.info .info-boxes {
+    width: 80%;
+    margin: auto;
+}
+
+.info .info-boxes .info-box {
+    padding: 12px 28px;
+    padding-right: 50px;
+    background: linear-gradient(to right, #60b4b9 0%, #74dad1 100%);
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.info .info-boxes .info-box:nth-child(even) {
+    background: linear-gradient(to right, #e5e8e8 0%, #d1d8d7 100%);
+    color: #333;
+}
+
+.info .info-boxes .info-box span {
+    font-size: 17px;
+	font-weight: 600;
+	letter-spacing: .2px;
+}
+
+.info .info-boxes .info-box span:last-of-type {
+	font-size: 18px;
+    float: right;
+}
+
+/* Extra Large Devices */
+@media (min-width: 1200px) {}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+    /*=========== Navbar ============*/   
+    .navbarFixed .info-nav ul li {
+        font-size: 15px;
+    }
+	
+    /*=========== Header ============*/   
+	.header .covid-19-item {
+		margin-left: 2%;
+		margin-right: 2%;
+        margin-bottom: 30px;
+    }
+	
+    /*=========== About ============*/   
+	.about .symptoms,
+	.about .percautions {
+        width: 85%;
+    }
+}
+
+/* Small Devices */
+@media (max-width: 767.98px) {
+
+    /*=========== Navbar ============*/   
+	.navbarFixed .info-nav ul li {
+        float: none;
+        width: 100%;
+        text-align: center !important;
+        margin-bottom: 10px;
+		font-size: 15px;
+    }
+	
+	/*=========== Header ============*/   
+	.header .covid-19-item {
+        margin-bottom: 30px;
+    }
+	
+	/*=========== About ============*/   
+	.about .symptoms,
+	.about .percautions {
+        width: 100%;
+    }
+	
+	/*=========== Info ============*/   
+	.info .info-boxes {
+        width: 100%;
+    }
+   
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	
+	body {
+        padding-top: 0 !important;
+    }
+	
+	.main-title h2 {
+        font-size: 26px;
+    }
+	
+    /*=========== Navbar ============*/   
+	.navbarFixed {
+        position: relative;
+    }
+	
+	.navbarFixed .info-nav ul li {
+        font-size: 14px;
+    }
+	
+	/*=========== Header ============*/   
+	.header {
+        height: auto!important;
+		margin-top: 50px;
+    }
+	
+	.header .covid-19-item h4 {
+        font-size: 24px;
+    }
+	
+	/*=========== about ============*/   
+	.about .symptoms h3,
+	.about .percautions h3 {
+        font-size: 24px;
+    }
+	
+	.about .symptoms p, .about .percautions p {
+        font-size: 14px;
+    }
+	
+	.about .symptoms .symptoms-list li, .about .percautions .percautions-list li {
+        font-size: 14px;
+    }
+	
+	/*=========== Info ============*/   
+	.info .info-boxes .info-box {
+        padding: 12px 7px;
+        padding-right: 7px;
+    }
+	
+	.info .info-boxes .info-box span {
+        font-size: 16px;
+    }
+
+}
